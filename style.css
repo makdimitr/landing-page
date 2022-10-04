@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  }
+  
+  body{
+    background: white;
+    color: white;
+    font-family: New Times Roman;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+  }
+  
+  insection{
+    margin:50px;
+  }
+  
+  .container-1{
+    display:flex;
+  }
+  
+  header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo{
+    position:relative;
+    margin-left:0;
+    color: #F9FAF8;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    margin-left:10px;
+  }
+  
+  header .navigation li {
+    background: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    margin-right: 60px;
+  }
+  
+  li{
+    display: inline-block;
+    margin: 0 20px 30px 30px;
+  }
+  
+  .container-1 .box1 .text {
+    color: #F9FAF8;
+    position:relative;
+    margin-left: 90px;
+    margin-top:20px;
+    font-weight: 800;
+    font-size:48px;
+  }
+  
+  .text span{
+    color: #E5E7EB;
+    position: relative;
+    margin:0px;
+    padding:10px;
+    font-size:18px;
+  }
+  
+  .box2{
+    flex:1;
+  }
+  
+  .box1{
+    flex:1;
+  }
+  
+  .signup1{
+    margin-left:55px;
+    padding:30px;
+  }
+  
+  .signup1-btn{
+    color: #fff;
+    background: #3882F6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    border-radius: 5px;
+  }
+  
+  .box2 img {
+    max-width: max-content;
+    max-height: max-content;
+    width: 100%;
+    padding: 10px;
+    margin-right:40px;
+    position: relative;
+    top: -20px;
+  }
+  
+  .info {
+    margin: 60px 100px;
+    text-align:center;
+    font-size:36px;
+    font-weight:800;
+    color:#1F2937;
+  }
+  
+  .container-image{
+    height: 140px;
+    margin-top:20px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  
+  .item{
+    margin:40px;
+    padding:20px;
+    width:250px;
+    display:flex;
+    text-align:center;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 1px;
+  }
+  
+  .item img{
+    max-width:200px;
+    height:150px;
+  }
+  
+  .item p{
+    color:black;
+  }
+  
+  .container-2{
+    position: relative;
+    margin-top:100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background: #E5E7EB;
+  }
+  
+  .container-2 .quote{
+    margin-top:55px;
+    text-align:center;
+    text-indent: 50px;
+    font-size:32px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    color:#1F2937;
+  }
+  
+  .container-2 .quote p{
+    text-align:right;
+    margin-right:60px;
+    margin-top:30px;
+    font-weight:550;
+    margin-bottom:70px;
+  }
+  
+  .container-3 {
+    display:flex;
+    margin-top:60px;
+    position:absolute;
+    text-align:center;
+    margin-left:15%;
+    width:70%;
+    height:130px;
+    color: #fff;
+    background: #3882F6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 70;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 15px;
+  }
+  
+  .container-3 .text1{
+    padding: 30px 0;
+    flex:2;
+  }
+  
+  .container-3 .text2{
+    flex:1;
+  }
+  
+  .signup2{
+    padding: 40px 0;
+    text-align:center;
+  }
+  
+  .signup2 .btn{
+    text-align:center;
+    height:20px;
+    color: white;
+    background: #3882F6;;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px #ccc solid;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    position:absolute;
+    padding: 20px 0;
+    top:1700px;
+    height:60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: #1F2937;
+  }
